@@ -10,6 +10,21 @@ To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/
 
 Looking for a blog template? Checkout [DevBlog](https://github.com/RyanFitzgerald/devblog).
 
+## Features to Highlight
+
+This template is designed to be both easy to use and highly customizable. When demonstrating your portfolio built with this template, or the template itself, consider highlighting:
+
+*   **Fully Responsive Design**: Showcase how the layout adapts seamlessly to various screen sizes, from desktops to mobile devices. This ensures a great user experience on any device.
+*   **Effortless Customization**:
+    *   **Color Schemes**: The overall theme and accent colors can be quickly changed by modifying a few Sass variables (e.g., `$base-color` in `sass/_variables.scss`).
+    *   **Content Integration**: Personalize your information by directly editing the content within the well-structured `index.html` file for each section (About, Experience, Projects, etc.).
+    *   **Modular Sections**: Easily add, remove, or reorder sections in `index.html` to tailor the portfolio to your specific needs. The template is built to be flexible.
+*   **Developer-Friendly Workflow**:
+    *   **Gulp Ready**: Comes with a Gulp setup for automated Sass compilation to CSS and JavaScript minification (`gulp watch`). This streamlines the development process if you're making SASS/JS changes.
+    *   **Sass Powered**: Utilizes Sass with well-commented files (`sass/styles.scss` and partials), allowing for more advanced and maintainable styling.
+*   **Robust Layout**: Leverages the Bootstrap grid system for creating consistent and complex layouts with ease.
+*   **Simple Deployment**: As a static site, it's incredibly easy to deploy. For example, you can host it for free using GitHub Pages (see the "Deploying to GitHub Pages" section below for guidance).
+
 ## Features
 
 * Gulp ready (compiles Sass and minifies JS)
@@ -56,6 +71,28 @@ At this point, the page is ready to go and you can begin to add your own informa
 ### Using The Template As Is
 
 If you wish to use the template as is (i.e. how it's seen in the demo), then all that's required is the `css`, `images`, `js`, `libs` folders and the `index.html` file. You would then add your content to `index.html` as needed and you're good to go!
+
+### Deploying to GitHub Pages
+
+Once you have your portfolio content ready (either by customizing the template or using it as is), you can easily deploy it online using GitHub Pages for free. Here's a general guide:
+
+1.  **Ensure your project is on GitHub:**
+    *   If you haven't already, create a new repository on GitHub and push your project files (including `index.html`, and the `css`, `images`, `js`, and `libs` folders) to it.
+    *   If you forked this repository, your code is already on GitHub.
+
+2.  **Configure GitHub Pages in your repository settings:**
+    *   Navigate to your repository on GitHub.
+    *   Click on the "Settings" tab.
+    *   In the left sidebar, click on "Pages" (under the "Code and automation" section).
+    *   Under "Build and deployment", for the "Source", select "Deploy from a branch".
+    *   Under "Branch", select the branch you want to serve your site from (commonly `main` or `master`) and choose `/ (root)` for the folder.
+    *   Click "Save".
+
+3.  **Access your live site:**
+    *   GitHub Pages will then build and deploy your site. This might take a few minutes.
+    *   Once deployed, the URL for your live site (e.g., `https://your-username.github.io/your-repository-name/`) will be displayed in the GitHub Pages settings.
+
+This setup assumes your `index.html` file is at the root of the selected branch. If you've followed the "Using The Template As Is" guidelines, your project structure should be compatible. For more detailed information, refer to the [official GitHub Pages documentation](https://docs.github.com/en/pages).
 
 ## Customization and Editing
 
